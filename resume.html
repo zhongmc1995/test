@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+    }
+    .header{
+        width: 100%;
+        height: 300px;
+        background-color: #303538;
+        color: white;
+        text-align: center;
+        display: table;
+    }
+
+    .title{
+        vertical-align: middle;
+        display: table-cell;
+    }
+    .content{
+        margin: 0 auto;
+        width: 50%;
+    }
+    hr{
+        margin:60px auto;
+        background-color: #666666;
+        width: 10%;
+        height: 3px;
+    }
+    h1,h2{
+        margin: 4px 0;
+    }
+    ul{
+        margin: 15px auto;
+    }
+    ul li{
+        padding: 4px;
+    }
+
+    #box{
+        height: 100px;
+    }
+</style>
+<body>
+<div class="header">
+    <div class="title">
+        <h1>钟明城</h1>
+        <p>Java工程师（实习）/华东交通大学/183-6193-8110</p>
+    </div>
+</div>
+
+<div class="content">
+    <hr>
+
+    <h1>个人信息</h1>
+
+    <ul>
+        <li>
+            钟明城/男/1995
+        </li>
+        <li>
+            华东交通大学/软件学院 （本科）
+        </li>
+        <li>
+            毕业时间：2018年
+        </li>
+        <li>
+            手机：183-6193-8110
+        </li>
+        <li>Email：zhongmc_me@163.com</li>
+        <li>QQ：2220928861</li>
+        <li>外语水平：英语四级</li>
+        <li>CSDN：http://blog.csdn.net/airmario</li>
+        <li>技术博客：http://www.sealine.top</li>
+        <li>Github: https://github.com/zhongmc1995</li>
+        <li>期望职位：Java工程师（实习）</li>
+    </ul>
+
+
+    <hr>
+    <h1>个人荣誉</h1>
+    <li>
+        <li>2014-2015学年：三好学生、三等奖学金</li>
+        <li>2015-2016学年：二等奖学金、国家励志奖学金、计算机作品大赛三等奖</li>
+    </ul>
+
+    <hr>
+    <h1>技能清单</h1>
+    <ul>
+        <li>能熟练使用面向对象的思想进行程序设计开发，熟练掌握Java语言</li>
+
+        <li>能使用Java Web相关的技术进行网站独立开发</li>
+        <li>能熟练使用Spring、SpringMVC、Mybatis、Spring Boot、Spring Security、Shiro等开源框架，并对底层实现原理有一定了解</li>
+        <li>能熟练使用Mysql、Oracle数据库，了解Redis、Mongdb等NoSQL数据库</li>
+        <li>熟悉计算机网络、操作系统等相关知识，懂Linux的基本操作</li>
+        <li>对JavaScript、Bootstrap、AngularJS等前端知识有一定的了解</li>
+        <li>对分布式系统有一定的了解</li>
+        <li>能熟练使用Eclipse、Intellij Idea开发工具进行软件开发</li>
+        <li>会使用Git、SVN版本控制工具</li>
+    </ul>
+    <hr>
+
+    <h1>项目开发经历</h1>
+
+    <h2>通用后台管理系统（2017年6月 ~ 至今）</h2>
+    <ul>
+        <li>该项目是一个后台管理系统的通用模板，支持二次开发，可扩展性强</li>
+        <li>实现的功能有：系统用户的认证、系统用户的动态权限分配、系统用户的登陆数限制、系统用户踢出登陆、资源菜单的递归显示、细粒度的权限控制、定时任务、集成Druid数据库日志监控、系统日志记录</li>
+        <li>主要用到的技术：Spring、SpringMVC、Mybatis、Shiro、Ehcache、Quartz、Druid、Captcha</li>
+        <li>项目地址：https://github.com/zhongmc1995/common-admin</li>
+        <li>测试地址：<a href="http://admin.sealine.top">http://admin.sealine.top</a></li>
+    </ul>
+
+    <h2>个人博客站点搭建（2016年11月 ~ 2017年3月）</h2>
+    <ul>
+        <li>该项目是一个个人的博客系统，支持全站的内容搜索、博客的发布、编辑、修改，博客的归档，标签的添加、修改、主题的切换，可直接打包部署到服务器运行</li>
+        <li>主要用到技术：Spring Boot、Mybatis，和thymeleaf模板引擎</li>
+        <li>项目地址：https://github.com/zhongmc1995/blog.git</li>
+        <li>演示地址：http://guoguirong.top
+    </ul>
+    <h2>Bee-Framework（2016年5月 ~ 至今）</h2>
+    <ul>
+
+        <li>该项目是一个简洁优雅的MVC微型框架，支持注解定义Controller、参数自动绑定、AOP、文件上传下载、AOP数据库事务管理、权限控制，目前部分功能尚未完成</li>
+        <li>主要用到的技术：Servlet、Java反射、MVC三层架构、Cglib动态代理</li>
+        <li>项目地址：https://github.com/zhongmc1995/bee-framework</li>
+    </ul>
+    <h2>Heroes（2017年4月 ~ 2017年5月）</h2>
+
+    <ul>
+
+        <li>该项目是基于Spring-Boot开发的一个标准的Restful API样例，支持Redis作为数据缓存，整合Swgger2用来构建Restful API文档</li>
+        <li>主要用到的技术：Spring-Boot、Spring-Data-JPA、Redis、Swagger2</li>
+        <li>项目地址：https://github.com/zhongmc1995/Heroes</li>
+    </ul>
+
+    <hr>
+    <h1>自我评价</h1>
+
+    <ul>
+        <li>性格沉稳、做事细心、敢于承担责任，勇于承担具有挑战性的工作</li>
+        <li>吃苦耐劳，有较强的学习能力和适应能力</li>
+        <li>已具备很好的编程素质，能够通过自学和实践掌握新知识，并熟练应用到项目中</li>
+        <li>富有团队精神，善于倾听并吸取别人的意见</li>
+    </ul>
+    <hr>
+
+    <h1>致谢</h1>
+
+    感谢您花时间阅读我的简历，期待能有机会和您共事
+
+    <div id="box"></div>
+</div>
+
+</body>
+</html>
